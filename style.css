@@ -63,12 +63,14 @@ header .logo
   background: #03a9f4;
   mix-blend-mode: overlay;
 }
-.text
-{
-  position: relative;
-  z-index: 10;
+.text {
+    opacity:1;
+    position: relative;
+    z-index: 10;
+    background:rgba(0, 0, 0, 0.6);
+    PADDING:50px;
+    width:100%;
 }
-
 .text h2
 {
   font-size: 5em;
@@ -79,7 +81,7 @@ header .logo
 }
 .text h3
 {
-  font-size: 4em;
+  font-size: 2em;
   font-weight: 700;
   color: #fff;
   line-height: 1em;
@@ -125,6 +127,24 @@ header .logo
   }
   .text h3
   {
-    font-size: 2em;
+    font-size: 1.5em;
   }
+}
+
+.fatsoma {
+    max-width:300px;
+    opacity: 1;
+}
+
+.hashtag-events {
+    color:white;
+    list-style: none;
+    font-size:26px;
+}
+.event-time {
+    font-size:2em;
+
+}
+.fatsoma {
+    filter: invert(1);
 }
