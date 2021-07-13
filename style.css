@@ -152,7 +152,7 @@ header .logo
     filter: invert(1);
 }
 .container {
-    margin-top:260px;
+    padding-top:260px;
     justify-content: center;
     margin: 0 auto;
 }
