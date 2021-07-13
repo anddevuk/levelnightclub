@@ -30,7 +30,7 @@ header .logo
   position: absolute;
   right: 0;
   width: 100%;
-  min-height:2700px;
+  min-height:100vh;
   padding: 100px;
   display: flex;
   justify-content: space-between;
